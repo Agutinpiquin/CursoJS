@@ -1,7 +1,11 @@
 function mostrar()
-{
+{let edad
+	edad=parseInt( document.getElementById("txtEdad").value)
+	if(edad>=18) alert("es mayor de edad")
+	if(edad<18) alert("ojito")
 	
-	alert("ok");
+	
+	
 	
 
 }
